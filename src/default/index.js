@@ -18,8 +18,8 @@ exports.handler = arc.http.async(async (req) => {
   return {
     statusCode: 201,
     json: {
-      ok: true,
-      ...d
+      success: true,
+      ...d.stored
     },
     cors: true,
   };
