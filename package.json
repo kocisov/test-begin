@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Begin basic Hello World! app for Node",
   "arc": {
+    "aws": {
+      "region": "eu-central-1"
+    },
     "app": "hello-world",
     "http": [
       {
